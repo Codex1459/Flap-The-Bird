@@ -1,11 +1,10 @@
-# Flap the Bird // High-FPS & Dynamic Speed Edition
+# Flap the Bird 
 
 A clean, beginner-friendly **Flap the Bird** game built in Python using strictly **`tkinter`** and **`Pillow`** (zero external game libraries/no Pygame).
 
 ---
 
 ## Key Features
-- **Ultra-Smooth High Refresh Rate**: Runs at **120–140 FPS** with delta-time physics and 1ms timer precision.
 - **Easy & Relaxed Gameplay**: Wider vertical pipe gap (`165px`), generous horizontal spacing (`235px`), floatier gravity, and forgiving hitboxes.
 - **Gentle Dynamic Speed**: Starts at a gentle `2.2 px/frame` and gradually ramps up as your score climbs (capped at `4.0 px/frame`).
 - **Chunk-Based Ground Terrain**: Modular chunks scroll left, get deleted when off-screen, and respawn seamlessly on the right.
