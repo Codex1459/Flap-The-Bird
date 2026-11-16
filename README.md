@@ -17,8 +17,7 @@ A clean, beginner-friendly **Flap the Bird** game built in Python using strictly
 ## Directory Structure
 
 ```text
-thjrtjrj/
-├── .venv/                   # Python virtual environment
+Flap-The-Bird/            
 ├── assets/                  # Categorized game assets
 │   ├── birds/               # 4 selectable bird types (3-frame animation each)
 │   │   ├── yellow/          # Classic Yellow
