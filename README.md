@@ -1,11 +1,10 @@
-# Flap the Bird // High-FPS & Dynamic Speed Edition
+# Flap the Bird 
 
 A clean, beginner-friendly **Flap the Bird** game built in Python using strictly **`tkinter`** and **`Pillow`** (zero external game libraries/no Pygame).
 
 ---
 
 ## Key Features
-- **Ultra-Smooth High Refresh Rate**: Runs at **120–140 FPS** with delta-time physics and 1ms timer precision.
 - **Easy & Relaxed Gameplay**: Wider vertical pipe gap (`165px`), generous horizontal spacing (`235px`), floatier gravity, and forgiving hitboxes.
 - **Gentle Dynamic Speed**: Starts at a gentle `2.2 px/frame` and gradually ramps up as your score climbs (capped at `4.0 px/frame`).
 - **Chunk-Based Ground Terrain**: Modular chunks scroll left, get deleted when off-screen, and respawn seamlessly on the right.
@@ -18,7 +17,7 @@ A clean, beginner-friendly **Flap the Bird** game built in Python using strictly
 ## Directory Structure
 
 ```text
-thjrtjrj/
+Flap-The-Bird/
 ├── .venv/                   # Python virtual environment
 ├── assets/                  # Categorized game assets
 │   ├── birds/               # 4 selectable bird types (3-frame animation each)
@@ -75,7 +74,7 @@ thjrtjrj/
 ## How to Run
 
 ### Method 1: One-Click Auto-Launcher (Recommended)
-Simply double-click **[`run.bat`](file:///c:/blender/thjrtjrj/run.bat)**.
+Simply double-click **[`run.bat`](file:///<user>/<directory>/<directory>/run.bat)**.
 - Automatically checks if Python is installed.
 - Automatically creates `.venv` if it doesn't exist.
 - Automatically installs required dependencies from `requirements.txt`.
