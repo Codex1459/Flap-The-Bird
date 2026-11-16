@@ -1,17 +1,3 @@
-"""
-================================================================================
-  FLAP THE BIRD // CLEAN & BEGINNER-FRIENDLY EDITION
-================================================================================
-  - Clean, beginner-friendly, and well-commented Python code
-  - Strictly uses standard Tkinter & Pillow (No game engines / no Pygame)
-  - 4 Selectable Birds (Yellow, Red, Blue, Gold) with unique chirp sounds
-  - 3 Background Themes (Day, Night, Sunset) with matching pipes & cozy music loops
-  - Infinite Ground Chunks: chunks move left, delete when off-screen, and respawn
-  - Instant Reward Medals: Bronze, Silver, Gold, Platinum
-  - Butter-smooth 60 FPS performance without canvas flickering
-================================================================================
-"""
-
 import tkinter as tk
 from PIL import Image, ImageTk
 import random
