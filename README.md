@@ -51,7 +51,6 @@ thjrtjrj/
 │   └── ui/                  # UI banners
 │       ├── game_over.png    # Game Over banner
 │       └── start_message.png# Start screen banner
-├── highscore.txt            # Persistent local high score
 ├── main.py                  # Main executable Python game script
 ├── README.md                # Project documentation
 └── run.bat                  # One-click game launcher
