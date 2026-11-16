@@ -1,10 +1,11 @@
-# Flap the Bird 
+# Flap the Bird // High-FPS & Dynamic Speed Edition
 
 A clean, beginner-friendly **Flap the Bird** game built in Python using strictly **`tkinter`** and **`Pillow`** (zero external game libraries/no Pygame).
 
 ---
 
 ## Key Features
+- **Ultra-Smooth High Refresh Rate**: Runs at **120–140 FPS** with delta-time physics and 1ms timer precision.
 - **Easy & Relaxed Gameplay**: Wider vertical pipe gap (`165px`), generous horizontal spacing (`235px`), floatier gravity, and forgiving hitboxes.
 - **Gentle Dynamic Speed**: Starts at a gentle `2.2 px/frame` and gradually ramps up as your score climbs (capped at `4.0 px/frame`).
 - **Chunk-Based Ground Terrain**: Modular chunks scroll left, get deleted when off-screen, and respawn seamlessly on the right.
@@ -17,7 +18,8 @@ A clean, beginner-friendly **Flap the Bird** game built in Python using strictly
 ## Directory Structure
 
 ```text
-Flap-The-Bird/            
+thjrtjrj/
+├── .venv/                   # Python virtual environment
 ├── assets/                  # Categorized game assets
 │   ├── birds/               # 4 selectable bird types (3-frame animation each)
 │   │   ├── yellow/          # Classic Yellow
@@ -50,6 +52,7 @@ Flap-The-Bird/
 │   └── ui/                  # UI banners
 │       ├── game_over.png    # Game Over banner
 │       └── start_message.png# Start screen banner
+├── highscore.txt            # Persistent local high score
 ├── main.py                  # Main executable Python game script
 ├── README.md                # Project documentation
 └── run.bat                  # One-click game launcher
@@ -71,8 +74,15 @@ Flap-The-Bird/
 
 ## How to Run
 
-```powershell
-.\.venv\Scripts\python.exe main.py
-```
+### Method 1: One-Click Auto-Launcher (Recommended)
+Simply double-click **[`run.bat`](file:///c:/blender/thjrtjrj/run.bat)**.
+- Automatically checks if Python is installed.
+- Automatically creates `.venv` if it doesn't exist.
+- Automatically installs required dependencies from `requirements.txt`.
+- Automatically launches `main.py`.
 
-*Or double-click [`run.bat`](file:///c:/blender/thjrtjrj/run.bat).*
+### Method 2: Manual Terminal Run
+```powershell
+pip install -r requirements.txt
+python main.py
+```
